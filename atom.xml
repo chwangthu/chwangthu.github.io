@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chwangthu.github.io/"/>
-  <updated>2019-06-01T05:59:29.562Z</updated>
+  <updated>2019-06-01T06:33:17.819Z</updated>
   <id>https://chwangthu.github.io/</id>
   
   <author>
@@ -17,19 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://chwangthu.github.io/2019/06/01/about/"/>
-    <id>https://chwangthu.github.io/2019/06/01/about/</id>
+    <title>中微结课</title>
+    <link href="https://chwangthu.github.io/2019/06/01/%E4%B8%AD%E5%BE%AE%E7%BB%93%E8%AF%BE/"/>
+    <id>https://chwangthu.github.io/2019/06/01/中微结课/</id>
     <published>2019-06-01T05:59:29.562Z</published>
-    <updated>2019-06-01T05:59:29.562Z</updated>
+    <updated>2019-06-01T06:33:17.819Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Test-aoubt"><a href="#Test-aoubt" class="headerlink" title="Test aoubt"></a>Test aoubt</h1>]]></content>
+    <content type="html"><![CDATA[<p>今天中微结课了。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;Test-aoubt&quot;&gt;&lt;a href=&quot;#Test-aoubt&quot; class=&quot;headerlink&quot; title=&quot;Test aoubt&quot;&gt;&lt;/a&gt;Test aoubt&lt;/h1&gt;
+        &lt;p&gt;今天中微结课了。&lt;/p&gt;
+
       
     
     </summary>
