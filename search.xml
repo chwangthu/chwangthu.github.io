@@ -5,25 +5,271 @@
     
     <entry>
       <title>中微结课</title>
-      <link href="/2019/06/01/%E4%B8%AD%E5%BE%AE%E7%BB%93%E8%AF%BE/"/>
-      <url>/2019/06/01/%E4%B8%AD%E5%BE%AE%E7%BB%93%E8%AF%BE/</url>
+      <link href="/2019/06/01/%E4%B8%AD%E5%BE%AE%E6%80%BB%E7%BB%93/"/>
+      <url>/2019/06/01/%E4%B8%AD%E5%BE%AE%E6%80%BB%E7%BB%93/</url>
       
-        <content type="html"><![CDATA[<p>今天中微结课了。</p>]]></content>
+        <content type="html"><![CDATA[<p>​    今天中微结课了。</p><p>​    中微应该是这学期出席频率最高的经双课了。老师是吴星晔，清华经管本科，哥大经济学博士毕业不久。吴老师数理基础非常扎实，上课所用的模型基本都用数学语言很好的表示出来，比课本要形式化的多；另外，他也经常讲授经济学的思维方式，而不是仅仅介绍枯燥的模型。</p><p>​    中微的主线是为什么要实行市场经济，从单个的消费者问题出发，进而引入生产和均衡的概念， 讨论了市场如何达到均衡，以及在均衡下是Paretto Efficient的。当然，这些在实际情况下都是很难实现的。后面几节课讨论了Market Power, Externalities和Asymmetric Information这几种导致市场失衡的原因。</p><p>​    很多的经济学现象都可以用外部性来解释。比如我早饭去食堂吃了一个包子，我影响了做包子的人，卖包子的人，还导致了别人少吃了一个包子，这也是一种外部性。但是由于我为包子付了钱，外部性被内部化了。市场经济正是一种将外部性内部化的一种目前来看最佳的方式。当然，也不排除其他方式，比如共产主义社会。甚至不同国家对言论的管控力度也可以用外部性来解释。如果认为言论有正的外部性，应当减少监管；否则应该增加监管。</p><p>​    信息不对称也能对经济造成比较严重的影响。如果卖方知道的信息比较多，会导致质量高价格高的卖房退出市场，比如二手市场的lemon和plum；如果买房信息较多，那些保留价格较低的买方将因为价格过高无法得到服务，比如保险市场。</p><p>​    因为外部性和信息不对称，需要政府通过法律法规作出调节。</p><p>​    中微还是非常有意思的一门课。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 随想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 经济学 </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2019/06/01/hello-world/"/>
-      <url>/2019/06/01/hello-world/</url>
+      <title>并查集判断连通图</title>
+      <link href="/2018/08/22/2018-08-22-%E5%B9%B6%E6%9F%A5%E9%9B%86%E5%88%A4%E6%96%AD%E8%BF%9E%E9%80%9A%E5%9B%BE/"/>
+      <url>/2018/08/22/2018-08-22-%E5%B9%B6%E6%9F%A5%E9%9B%86%E5%88%A4%E6%96%AD%E8%BF%9E%E9%80%9A%E5%9B%BE/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="并查集"><a href="#并查集" class="headerlink" title="并查集"></a>并查集</h2><p>并查集故名思义，就是一个集合既能够合并，也能够查找。因此通常有两个函数，find和merge。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">UnionFind</span> &#123;</span></span><br><span class="line">  <span class="keyword">int</span> size;</span><br><span class="line">  <span class="keyword">int</span>[] pre;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">UnionFind</span><span class="params">(<span class="keyword">int</span> size)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.size = size;</span><br><span class="line">    pre = <span class="keyword">new</span> <span class="keyword">int</span>[size];</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; size; i++) &#123;</span><br><span class="line">      pre[i] = i;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">find</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123; <span class="comment">//find the root of x</span></span><br><span class="line">    <span class="keyword">int</span> r = x;</span><br><span class="line">    <span class="keyword">while</span>(pre[r] != r) r = pre[r];</span><br><span class="line">    <span class="keyword">return</span> r;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">merge</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> fx = find(x), fy = find(y);</span><br><span class="line">    <span class="keyword">if</span>(pre[fx] != pre[fy]) &#123;</span><br><span class="line">      pre[fx] = fy;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> Algorithms </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的Vim配置</title>
+      <link href="/2018/08/15/2018-08-15-%E6%88%91%E7%9A%84Vim%E9%85%8D%E7%BD%AE/"/>
+      <url>/2018/08/15/2018-08-15-%E6%88%91%E7%9A%84Vim%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-基础配置"><a href="#1-基础配置" class="headerlink" title="1. 基础配置"></a>1. 基础配置</h2><p>基础配置主要在根目录中的<code>.vimrc</code>中设置（没有则创建），<code>vim .vimrc</code>打开，添加命令。</p><p>常用的配置诸如:</p><ul><li>set number “设置行号</li><li>set tabstop=4 “设置tab</li></ul><p>更多的详见<a href="https://gist.github.com/chwangthu/21c8a323f84c6091994fcbe13822a04d" target="_blank" rel="noopener">.vimrc</a></p><h2 id="2-添加插件"><a href="#2-添加插件" class="headerlink" title="2. 添加插件"></a>2. 添加插件</h2><p>我用的是<a href="https://github.com/VundleVim/Vundle.vim" target="_blank" rel="noopener">Vundle</a>对插件进行管理。在Vundle中，插件的安装十分方便。<a href="https://linuxhint.com/vim-vundle-tutorial/" target="_blank" rel="noopener">这里</a>对于Vundle的讲解十分详细，基本照做就行。</p><p>可以添加自己喜欢的插件，<a href="https://github.com/Valloric/YouCompleteMe" target="_blank" rel="noopener">YouCompleteMe</a>是一款十分实用的代码补全插件，支持C, C++, java多种语言，用Vundle安装即可。</p><h2 id="3-为不同的语言设置高亮"><a href="#3-为不同的语言设置高亮" class="headerlink" title="3. 为不同的语言设置高亮"></a>3. 为不同的语言设置高亮</h2><p>设置完1和2之后，我的java和c++高亮还是不够完善，不能支持类名和部分变量名。Google后发现可以在<code>.vim/syntax</code>下添加文件进行高亮。比如若想要配置c++的高亮，可以添加<code>cpp.vim</code>进行个性化的设置。各种语言语法高亮可参考<a href="https://github.com/chwangthu/Improved-Syntax-Highlighting-Vim" target="_blank" rel="noopener">我的Github</a>。</p><h2 id="4-一些其他的插件："><a href="#4-一些其他的插件：" class="headerlink" title="4. 一些其他的插件："></a>4. 一些其他的插件：</h2><ul><li><a href="https://github.com/vim-airline/vim-airline" target="_blank" rel="noopener">airline</a> 底部状态栏</li><li><a href="https://github.com/scrooloose/nerdtree" target="_blank" rel="noopener">Nerdtree</a> 目录树</li><li><a href="https://github.com/tpope/vim-fugitive" target="_blank" rel="noopener">fugitive</a> 配合airline使用可显示git分支，支持gitcommit, push等命令</li></ul><p>均可通过Vundle安装</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Vim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Wireshark之TCP</title>
+      <link href="/2018/05/27/2018-07-22-Wireshark%E4%B9%8BTCP/"/>
+      <url>/2018/05/27/2018-07-22-Wireshark%E4%B9%8BTCP/</url>
+      
+        <content type="html"><![CDATA[<h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><p>使用tcp filter，我们很容易就能捕获tcp包</p><ul><li>第一步：源地址向目的地址发送请求(SYN, seq = 0)</li><li>第二步：目的地址确认(SYN, ACK seq=0, ack=1)</li><li>第三步：源地址确认(ACK seq=1, ack=1)</li></ul><p><img src="../assets/images/wireshark-tcp1.png" alt="三次握手"></p><p>详细的信息如下图：</p><p><img src="../assets/images/wireshark-tcp2.png" alt></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Notes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RSA公钥加密系统</title>
+      <link href="/2018/05/27/2018-05-26-RSA%E5%8A%A0%E5%AF%86%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2018/05/27/2018-05-26-RSA%E5%8A%A0%E5%AF%86%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、生成"><a href="#一、生成" class="headerlink" title="一、生成"></a>一、生成</h2><ol><li>两个足够大的素数p, q, N = pq</li><li>计算$r=\phi(N)=(p-1)(q-1)$</li><li>找到比r小且与r互素的e，求e模r的逆d<br>(N, e)是公钥 (N, d)是私钥</li></ol><h2 id="二、加密"><a href="#二、加密" class="headerlink" title="二、加密"></a>二、加密</h2><h2 id="三、解密"><a href="#三、解密" class="headerlink" title="三、解密"></a>三、解密</h2><h2 id="四、可行性"><a href="#四、可行性" class="headerlink" title="四、可行性"></a>四、可行性</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Notes </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LeetCode Weekly Contest 78</title>
+      <link href="/2018/04/07/2018-04-07-LeetcodeWC78/"/>
+      <url>/2018/04/07/2018-04-07-LeetcodeWC78/</url>
+      
+        <content type="html"><![CDATA[<h3 id="3-Soup-Servings"><a href="#3-Soup-Servings" class="headerlink" title="3. Soup Servings"></a>3. Soup Servings</h3><p>题意：A, B杯中都有N ml的汤，每次进行四种操作，问A比B先倒完加上同时倒完*0.5的概率是多少</p><p>解法：难点在于N很大时，直接返回1就行了，原因是A几乎总是比B倒的多。N小的时候使用记忆化搜索</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    double memo[200][200];</span><br><span class="line">    double f(int a, int b) &#123;</span><br><span class="line">        if(a &lt;= 0 &amp;&amp; b &lt;= 0) return 0.5;</span><br><span class="line">        if(a &lt;= 0) return 1;</span><br><span class="line">        if(b &lt;= 0) return 0;</span><br><span class="line">        if(memo[a][b] &gt; 0) return memo[a][b];</span><br><span class="line">        memo[a][b] = 0.25* (f(a-4, b) + f(a-3, b-1) + f(a-2, b-2) + f(a-1, b-3));</span><br><span class="line">        return memo[a][b];</span><br><span class="line">    &#125;</span><br><span class="line">    double soupServings(int N) &#123;</span><br><span class="line">        if(N &gt;= 4800) return 1;</span><br><span class="line">        return(f((N+24)/25, (N+24)/25));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><h3 id="4-Chalkboard-XOR-Game"><a href="#4-Chalkboard-XOR-Game" class="headerlink" title="4. Chalkboard XOR Game"></a>4. Chalkboard XOR Game</h3><p>题意：黑板上有一串数，A和B轮流擦去一个数（A先）。如果某个人操作完之后所有数的异或和0，他就输了。如果在操作前异或和已经为0，那么他赢。问A，B谁会赢。</p><p>解法：考虑开始时黑板上数异或和不为0的情况（否则A直接赢了）。当A有偶数个数时，A总是能够移动。否则另S = x1 ^ … ^ xn != 0。当A无路可走时，任意xi，S^xi = 0。那么(S ^ x1) ^ (S ^ x2) ^…^ (S ^ xn) = (S ^ S ^… ^ S) ^ (x1 ^… ^ xn) = 0 ^ S != 0。矛盾。因此只需要判断奇偶性即可。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    bool xorGame(vector&lt;int&gt;&amp; nums) &#123;</span><br><span class="line">        int sum = 0;</span><br><span class="line">        for(auto num: nums) &#123;</span><br><span class="line">            sum ^= num;</span><br><span class="line">        &#125;</span><br><span class="line">        return (sum == 0) || (nums.size() % 2 == 0);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">(function(d, s) {var j, e = d.getElementsByTagName(s)[0];<p>if (typeof LivereTower === ‘function’) { return; }</p><p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;j.async = true;</p><p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LeetCode Weekly Contest 75</title>
+      <link href="/2018/03/11/2018-03-11-LeetcodeWC75/"/>
+      <url>/2018/03/11/2018-03-11-LeetcodeWC75/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-Rotate-String"><a href="#1-Rotate-String" class="headerlink" title="1. Rotate String"></a>1. Rotate String</h3><p>比较简单，最小表示法</p><h3 id="2-All-Paths-From-Source-to-Target"><a href="#2-All-Paths-From-Source-to-Target" class="headerlink" title="2. All Paths From Source to Target"></a>2. All Paths From Source to Target</h3><p>直接dfs</p><h3 id="3-Champagne-Tower"><a href="#3-Champagne-Tower" class="headerlink" title="3. Champagne Tower"></a>3. Champagne Tower</h3><p>题意：玻璃杯按杨辉三角排列，向杯中倒入香槟，如果满了往下面的两个杯子分别流入多余的1/2，问倒入一定量的香槟后某个特定位置杯子中有多少香槟。</p><p>解法：一开始我想的是把每一层所有的杯子倒满，之后处理剩余的部分。后来发现剩余的部分并不是像我想的那样两边是中间的一半。这题应该采用递推模拟的方法，假设所有的香槟一下倒进去。减去1，剩下的部分给下面的两个杯子即可。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    double f[105][105];</span><br><span class="line">    double champagneTower(int poured, int query_row, int query_glass) &#123;</span><br><span class="line">        f[0][0] = poured;</span><br><span class="line">        for(int i = 0; i &lt;= query_row; i++) &#123;</span><br><span class="line">            for(int j = 0; j &lt;= i; j++) &#123;</span><br><span class="line">                if(f[i][j] &gt; 1) &#123;</span><br><span class="line">                    double d = f[i][j] - 1;</span><br><span class="line">                    f[i][j] = 1;</span><br><span class="line">                    f[i+1][j] += d / 2;</span><br><span class="line">                    f[i+1][j+1] += d / 2;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return f[query_row][query_glass];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><h3 id="4-Smallest-Rotation-with-Highest-Score"><a href="#4-Smallest-Rotation-with-Highest-Score" class="headerlink" title="4. Smallest Rotation with Highest Score"></a>4. Smallest Rotation with Highest Score</h3><p>题意：一个长度为n的数组A，对于每个位置，A[i] &lt;= i得一分，因此可以得到数组的总得分。然后对数组进行shift操作，即将最后一个元素移到第一个位置，其他元素顺次后移。再次计算总得分。如此操作，问shift一轮之后，哪个位置的总得分最高。</p><p>解法：事实上，每个位置的元素是相对独立的，每个元素总是在特定的时候进入无法得分的区域，在另个时候出去，这个只与该元素首位置有关，与其他元素没有任何关系。所以我们只需记录每个元素i进出的时间，分别为good[i]和bad[i]，然后计算出初始的score。每次shift加上good[i]-bad[i]（就是该时刻进去的元素减去出去的元素），一轮遍历找到最大值。注意0和n-1的特殊性。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int bestRotation(vector&lt;int&gt;&amp; A) &#123;</span><br><span class="line">        int n = A.size();</span><br><span class="line">        int score = 0;</span><br><span class="line">        int *good = new int[n];</span><br><span class="line">        int *bad = new int[n];</span><br><span class="line">        for(int i = 0; i &lt; n; i++)</span><br><span class="line">            good[i] = bad[i] = 0;</span><br><span class="line">        </span><br><span class="line">        for(int i = 0; i &lt; A.size(); i++) &#123;</span><br><span class="line">            if(A[i] &lt; i) &#123;</span><br><span class="line">                if(i - A[i] + 1 &lt; n)</span><br><span class="line">                    bad[i - A[i] + 1] += 1;</span><br><span class="line">                if(i + 1 &lt; n) good[i + 1] += 1;</span><br><span class="line">            &#125;</span><br><span class="line">            else if(i == A[i]) &#123;//若A[i]==0，无需处理，永远得分</span><br><span class="line">                if(i != 0) bad[1] += 1;</span><br><span class="line">                if(i + 1 &lt; n &amp;&amp; i != 0) good[i+1] += 1;</span><br><span class="line">            &#125;</span><br><span class="line">            else &#123;//A[i] &gt; i</span><br><span class="line">                good[i+1] += 1;</span><br><span class="line">                bad[n - A[i] + i + 1] += 1;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        for(int i = 0; i &lt; A.size(); i++)</span><br><span class="line">            if(A[i] &lt;= i) score++;</span><br><span class="line">        int max = score, ans = 0;</span><br><span class="line">        for(int i = 1; i &lt; n; i++) &#123;</span><br><span class="line">            score += good[i] - bad[i];</span><br><span class="line">            if(score &gt; max) &#123;</span><br><span class="line">                max = score;</span><br><span class="line">                ans = i;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">(function(d, s) {var j, e = d.getElementsByTagName(s)[0];<p>if (typeof LivereTower === ‘function’) { return; }</p><p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;j.async = true;</p><p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LeetCode793 Preimage Size of Factorial Zeroes Function</title>
+      <link href="/2018/03/04/2018-03-04-Leetcode793/"/>
+      <url>/2018/03/04/2018-03-04-Leetcode793/</url>
+      
+        <content type="html"><![CDATA[<p>题目意思：输入K，找出阶乘中结尾刚好有K个0的自然数数目<br><br><a href="https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/description/" target="_blank" rel="noopener">题目链接</a><br><br>思路：每个自然数的结尾0数是一个单调不减的序列，二分查找K和K+1（返回最右侧）的位置再进行做差即可。</p><h3 id="一、如何计算n-结尾后面0的个数？"><a href="#一、如何计算n-结尾后面0的个数？" class="headerlink" title="一、如何计算n!结尾后面0的个数？"></a>一、如何计算n!结尾后面0的个数？</h3><p>用f(x)表示n!结尾后0的数目。结尾之后的0经过因式分解之后必然为2和5，n! = 2^a * 3^b * 5^c *…。则f(x) = min(a, c)。显然a &gt;= c，则f(x) = c。<br></p><pre><code>ll count(ll n) {    ll res = 0;    while(n) {        res += n / 5;        n /= 5;    }    return res;}</code></pre><p>n/5表示5的倍数贡献一个5，n/25表示25的倍数再贡献一个，以此类推</p><h3 id="二、使用二分查找"><a href="#二、使用二分查找" class="headerlink" title="二、使用二分查找"></a>二、使用二分查找</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">ll find(ll k) &#123;</span><br><span class="line">    ll lo = 0; ll hi = 5 * 1e9;</span><br><span class="line">    while(lo &lt; hi) &#123;</span><br><span class="line">        ll mi = (lo + hi) &gt;&gt; 1;</span><br><span class="line">        if(count(mi) &gt; k) hi = mi;</span><br><span class="line">        else lo = mi + 1;</span><br><span class="line">    &#125;</span><br><span class="line">    return --lo;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>通过二分查找我们得到f(x)等于K的最大的x值，如果没有则返回最右侧位置。这得益于使用了count(mi) &gt; k。每次迭代lo - 1的位置是当前确定的小于等于e的最大元素，hi位置是当前确定的大于e的最小元素。当结束时，lo = hi，lo-1即为所找元素。若改用 &gt;= 号，返回的是最左侧的位置。</p><h3 id="三、做差"><a href="#三、做差" class="headerlink" title="三、做差"></a>三、做差</h3><p>f(x) = K的最大x值与f(x) = K - 1的最大x值即为f(x) = K的元素个数。</p><p>完整代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    typedef long long ll;</span><br><span class="line">    ll count(ll n) &#123;</span><br><span class="line">        ll res = 0;</span><br><span class="line">        while(n) &#123;</span><br><span class="line">            res += n / 5;</span><br><span class="line">            n /= 5;</span><br><span class="line">        &#125;</span><br><span class="line">        return res;</span><br><span class="line">    &#125;</span><br><span class="line">    ll find(ll k) &#123;</span><br><span class="line">        ll lo = 0; ll hi = 5 * 1e9;</span><br><span class="line">        while(lo &lt; hi) &#123;</span><br><span class="line">            ll mi = (lo + hi) &gt;&gt; 1;</span><br><span class="line">            if(count(mi) &gt; k) hi = mi;</span><br><span class="line">            else lo = mi + 1;</span><br><span class="line">        &#125;</span><br><span class="line">        return --lo;</span><br><span class="line">    &#125;</span><br><span class="line">    int preimageSizeFZF(int K) &#123;</span><br><span class="line">        if(K == 0) return 5;</span><br><span class="line">        return (int)(find(K) - find(K-1));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">(function(d, s) {var j, e = d.getElementsByTagName(s)[0];<p>if (typeof LivereTower === ‘function’) { return; }</p><p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;j.async = true;</p><p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读《艺术的故事》</title>
+      <link href="/2018/03/02/2018-03-02-%E8%AF%BB%E3%80%8A%E8%89%BA%E6%9C%AF%E7%9A%84%E6%95%85%E4%BA%8B%E3%80%8B/"/>
+      <url>/2018/03/02/2018-03-02-%E8%AF%BB%E3%80%8A%E8%89%BA%E6%9C%AF%E7%9A%84%E6%95%85%E4%BA%8B%E3%80%8B/</url>
+      
+        <content type="html"><![CDATA[<p>从学弟手中借到一本《艺术的故事》，准备这学期将其读完。</p><h3 id="导言-2018-03-02"><a href="#导言-2018-03-02" class="headerlink" title="导言 2018/03/02"></a>导言 2018/03/02</h3><p>导言中作者提到了一般人欣赏艺术的一些误区。比如我们总是认为和事实最为接近的艺术品是最好的。然而我们却忽视了创造这件作品的艺术家们品味比我们高得多，他们自然有理由将作品描绘成这样。另外，艺术家们常常为了一些细节仔细斟酌，直到完美的境界。拉斐尔的圣母像就是一个很好的例子。</p><p>作者提到希望这本书能够帮我们理解艺术家为什么要采用特殊的创作方式，为什么要造成某种特定的艺术效果。希望自己读完这本书后对艺术有更加深刻的理解。</p><h3 id="1-奇特的起源"><a href="#1-奇特的起源" class="headerlink" title="1.奇特的起源"></a>1.奇特的起源</h3><p>过去的艺术以服务为目的，历史越久远越是如此。许多作品对于特定的部落而言都有着特殊的意义。原始人信奉图像的威力。有些作品可能看起来不像实物，但是能保持图案的统一与和谐。</p><p>如果不加解释，我们很可能无法理解原始艺术表达的含义。但是仍然能够欣赏他们的统一与和谐。</p><h3 id="2-追求永恒的艺术"><a href="#2-追求永恒的艺术" class="headerlink" title="2.追求永恒的艺术"></a>2.追求永恒的艺术</h3><p>埃及兼顾对自然的观察和总体的匀整。<br>美索不达米亚的艺术家。</p><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">(function(d, s) {var j, e = d.getElementsByTagName(s)[0];<p>if (typeof LivereTower === ‘function’) { return; }</p><p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;j.async = true;</p><p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Reading </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>有向图的Dijakstra算法</title>
+      <link href="/2018/02/28/2018-02-28-Dijakstra/"/>
+      <url>/2018/02/28/2018-02-28-Dijakstra/</url>
+      
+        <content type="html"><![CDATA[<p>算法原理就不多说了，就讲一讲实现<br>代码采用邻接矩阵的数据结构，a(i,j)代表第i个节点到第j个节点的距离，不能到达为无穷，代码中设为10000000。<br>另外数组len代表节点0到每个节点到最短路程，每循环一次就更新一次，vis数组表示访问情况，1表示访问过，0表示未访问。<br>算法分为2步：<br>（1）置len数组的值，直接将矩阵的第一行给len赋值即可 vis[0] = 1;<br>（2）n-2次循环，每次加入一个节点（为什么不是n-1次呢？最后一次就一个点了，没什么好更新的）<br>  每次循环做的事：<br>​    1）找到下一个节点（next_node函数）<br>​    2）将找到节点的后继的len值进行更新</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;algorithm&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int MAX = 10000000;</span><br><span class="line">const int N = 100; //最多设置100个节点</span><br><span class="line">int matrix[N][N];</span><br><span class="line">int len[N]; //最短路径长度,不断更新</span><br><span class="line">bool vis[N]; //判断是否访问过该节点,访问过设1</span><br><span class="line">int n;</span><br><span class="line">int next_node()</span><br><span class="line">&#123;</span><br><span class="line">    int l = MAX;</span><br><span class="line">    int tep = 0;</span><br><span class="line">    for (int i = 0; i &lt; n; i++)</span><br><span class="line">        if (!vis[i] &amp;&amp; len[i] &lt; l)</span><br><span class="line">        &#123;</span><br><span class="line">            tep = i;</span><br><span class="line">            l = len[i];</span><br><span class="line">        &#125;</span><br><span class="line">    vis[tep] = 1;</span><br><span class="line">    return tep;</span><br><span class="line">&#125;</span><br><span class="line">void Dijastra()</span><br><span class="line">&#123;</span><br><span class="line">    for (int i = 0; i &lt; n; i++) //设置len[i]的值</span><br><span class="line">    &#123;</span><br><span class="line">        len[i] = matrix[0][i];</span><br><span class="line">        cout &lt;&lt; len[i] &lt;&lt; &quot; &quot;;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    len[0] = 0;</span><br><span class="line">    vis[0] = 1;                 //第0个节点被访问</span><br><span class="line">    for (int i = 1; i &lt; n - 1; i++) //循环n-2次，每次加入一个节点</span><br><span class="line">    &#123;</span><br><span class="line">        int k = next_node();</span><br><span class="line">        cout &lt;&lt; &quot;node &quot; &lt;&lt; k &lt;&lt; &quot; is added&quot; &lt;&lt; endl;</span><br><span class="line">        for (int j = 0; j &lt; n; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            if (!vis[j] &amp;&amp; matrix[k][j] != MAX) //没有访问过且是k的后继</span><br><span class="line">                len[j] = min(len[j], len[k] + matrix[k][j]);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">void print()</span><br><span class="line">&#123;</span><br><span class="line">    for (int i = 0; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;The length of the shorted path to node &quot; &lt;&lt; i + 1 &lt;&lt; &quot; is: &quot;;</span><br><span class="line">        if (len[i] == MAX)</span><br><span class="line">            cout &lt;&lt; &quot;∞&quot; &lt;&lt; &quot; &quot;;</span><br><span class="line">        else cout &lt;&lt; len[i] &lt;&lt; &quot; &quot;;</span><br><span class="line">        cout &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;Please input the number of nodes: &quot;;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    cout &lt;&lt; &quot;Please input the relation matrix, use MAX when can&apos;t be reached&quot; &lt;&lt; endl;</span><br><span class="line">    for (int i = 0; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;node: &quot; &lt;&lt; i + 1 &lt;&lt; &quot; &quot;;</span><br><span class="line">        for (int j = 0; j &lt; n; j++)</span><br><span class="line">            cin &gt;&gt; matrix[i][j];</span><br><span class="line">    &#125;</span><br><span class="line">    Dijastra();</span><br><span class="line">    print();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>时间复杂度：O(n^2)<br>空间复杂度：O(n)<br>测试：<br><img src="http://img.blog.csdn.net/20170401173515787?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQ293YW4xOTk5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">(function(d, s) {var j, e = d.getElementsByTagName(s)[0];<p>if (typeof LivereTower === ‘function’) { return; }</p><p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;j.async = true;</p><p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Algorithm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读吴国盛《什么是科学》</title>
+      <link href="/2017/07/08/2017-07-08-%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%91%E5%AD%A6/"/>
+      <url>/2017/07/08/2017-07-08-%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%91%E5%AD%A6/</url>
+      
+        <content type="html"><![CDATA[<p>​    《什么是科学》是吴国盛老师去年刚完成的一本新作。这学期选修了吴老师的科学通史课程，这本书也是课程推荐阅读的书目之一，今天终于第一次把它看完，后面的文章看的有些仓促。</p><p>​    这本书的内容可能与书名并不是太契合。吴老师并没有刻意解释什么是科学这个问题，甚至他写这本书的目的可能也并不是为了解决这个问题。相反，通过追根朔源科学一词的内涵、科学在当代中国人心中的普遍印象以及学术界关于中国古代有无科学的论证，吴老师引导读者自己认识科学，自己去寻找问题的答案。<br>​    这本书从现代中国人科学观念的由来出发，首先界定了两种科学，一是科学家们从事的事情，二是对的东西是科学。中国人为什么会去接触科学呢？很大程度上是鸦片战争以来屡屡败给西方文明的无奈之举。“科学”这个词实际上是日本人的翻译，但是这个翻译并没有很好的表达原来的意思，而且由于中国特定的环境，国人经常将科学和技术混为一谈。<br>​    第二章完整追溯了科学在西方的发展历程。作者首先解释了科学一词的翻译问题，science其实是在19世纪才逐渐取代natural philosophy而成为“自然科学”的代名词，实际上科学对应的拉丁文scientia一词对应了西方的理知传统——即希腊人以来西方学者一直追求的高端知识。作者将西方文明和中国文明做了深入的对比，解释了为什么中国人为什么以亲缘关系为主，而西方人注重自由并且以科学作为自己的人文修养。<br>​    从希腊的理性科学出发，该书又研究了两种使希腊科学发展为现代数理实验科学的重要因素：一是基督教，二是人们观念的变化（形而上学基础），最后作者着眼于另一重要科学传统博物学，并根据博物学的概念对于中国古代是否有科学给出了自己的答案。<br>​    当然，作者的观点我们也不必要完全认同。但是我十分佩服吴老师研究问题的方法，他对每一个问题的分析都有理有据，深入探究，比如科学一词的翻译问题，一直追溯到古希腊的episteme一词；对于古希腊和中国的对比也十分详细并且十分有道理。而“没有基督教就没有现代科学”的观念相信令不少人十分惊讶，我自身刚开始也是如此，经过阅读和研究，写了一篇小的论文。同时，书中的科学根本不是我们想象的枯燥无味的公式和定理，很大一部分与当时的社会环境和人文环境有关。<br>​    博物学传统的研究是这本书的又一大重要的特色。作者看来，博物学是不同于数理实验科学的又一门学科，近代历史上它与数理科学同步发展，不可忽视。博物学是人们对于自然的认识，这一点在所有的文明中都是存在的，不想理性科学只存在于西方。博物学或许能够给当今科学发展带来的一系列社会、环境问题给出一个让人满意的答案。同时，将中国古代的“科学”纳入到博物学的研究范畴中或许不失为一种更好的研究方法。<br>​    这篇文章写的有些仓促，总之这学期上完了吴老师的课，读了这本书收获还是相当大的，希望有时间之后还可以重新读这本书。</p><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">(function(d, s) {var j, e = d.getElementsByTagName(s)[0];<p>if (typeof LivereTower === ‘function’) { return; }</p><p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;j.async = true;</p><p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>浅谈中世纪宗教对科学的影响</title>
+      <link href="/2017/07/08/2017-07-08-%E6%B5%85%E8%B0%88%E4%B8%AD%E4%B8%96%E7%BA%AA%E5%AE%97%E6%95%99%E4%B8%8E%E7%A7%91%E5%AD%A6/"/>
+      <url>/2017/07/08/2017-07-08-%E6%B5%85%E8%B0%88%E4%B8%AD%E4%B8%96%E7%BA%AA%E5%AE%97%E6%95%99%E4%B8%8E%E7%A7%91%E5%AD%A6/</url>
+      
+        <content type="html"><![CDATA[<p><strong>一、宗教与科学关系的复杂性</strong></p><p>  宗教与科学似乎是两个充满矛盾的概念，然而从历史的进程上来看，它们又是密不可分的。近几百年来，自然科学有了突破性的发展；而宗教却节节败退，不断向科学妥协。宗教与科学的关系一直是人类热议的话题。然而，笔者认为，绝大部分人对于两者的理解都存在些许误区。至少结合中国的国情来看，存在着两种极端，一部分有一定文化水平的人认为科学是绝对正确的真理，而宗教就是必定错误且危害人类的思想，笔者自身在迈入大学校园之前就有类似的思想；还有一部分教育程度不高的人过于迷信宗教，不相信科学。诚然，任何事物的存在都是有其原因的，我们应该以辩证的眼光看问题，一锤定音必定是有失公允的。科学绝非亘古不变的真理，宗教也不是完全的谬误。它们是人类历史上两种不同的认知方式，英国的哲学家怀特海就曾写到：“除各种感官的冲动外，对人类具有影响的两种最强大的普遍力量，一种是宗教的直觉，另一种则是精确的观察和逻辑的推理”[1]。</p><p>  宗教与科学的关系是极其错综复杂的，一些情况下它们甚至是很难区分的，因此我们很难给出一个确定的答案。要想真正了解两者之间的关系，我们只有踏入历史的河流中，探寻它们真实的面貌。本文将从中世纪宗教对科学的影响出发探讨宗教与科学的关系。</p><p><strong>二、中世纪宗教对科学的影响</strong></p><p>  现代意义的科学融入了理性传统、数学传统和实验传统，其诞生发展不过几百年的时间。在早期人类的历史进程中，希腊理性科学算是最为辉煌的一个时代，其与宗教没有什么特别的联系，当时也没有严格意义上的宗教；然而除此之外，其他时期的科学都与宗教紧密相关，或是被宗教打压，或是“神学的婢女”，或是在宗教中悄然发展。</p><p>  整个古代社会里，宗教与科学都是密不可分的，甚至许多科学发现都有着浓厚的宗教背景，譬如日心说就是哥白尼对于托勒密体系不满意而创立的。在先于中世纪的时期，生产力水平低下，人们知识水平不高，对于自然界的绝大部分现象都无法做出解释。这种情况下，人类所有的信仰都寄托在某些具有特殊力量的事物身上，在东方的中国表现为一个个神话故事，而在西方则表现为人类对上帝和诸神的信仰。尽管缺乏当今科学研究所必需的理论和实验仪器，早期的人们依然试图用自己的方式解决大自然的奥秘。如果仔细思考古人们的成就，我们不难看出，他们的研究对后来的宗教和科学都有很大的影响。古人对于生与死、善与恶、今生与来世等等的宗教思考为宗教的教义提供了原始的积累。而占星术、天文学等的研究为近代科学也做出了不可磨灭的贡献。中世纪之后的科学革命更是人类历史上最为辉煌的时期。这个时期的时代走向像是早就安排拍摄好的电影一样环环相扣，众多科学史上著名的科学家相继登上历史舞台，提出他们的理论，把人类文明推向前所未有的高度。这个时期同时也是科学开始上升而宗教渐渐衰落的时期。</p><p>  因此，处于古代和近代之间的中世纪的地位就显得尤为特殊。它架起了一座联通两个时代间的桥梁。当代学者钱时惕认为近代科学正是经由中世纪在基督教文化背景下诞生的[2]。丹皮尔也说“中世纪仍有其原来的意义——由古代学术衰落到文艺复兴时期学术兴起的一千年，这是人类由希腊思想和罗马统治的高峰降落下来，再沿着现代知识的斜坡挣扎上去所经过的一个阴谷”[3]。“黑暗的中世纪”其实并没有我们想象中的那么不堪，这一千年间有许多问题值得研究。其中，中世纪时期宗教与科学之间有融合、有冲突，是二者关系最为复杂的一个阶段。</p><p>  中世纪宗教对于科学的迫害不言自明。由于教会至高无上的权利体系，任何敢于挑战教会权威的理论必然会受到严厉的打击，所有与圣经解释有冲突的学说毋庸置疑都是异端，众多提出新理论的科学家都受到教会严重的迫害。其后果也十分严重，在中世纪长达近千年的时期，除了阿拉伯地区的翻译运动，科学几乎没有什么革命性的进步，一直之中处于停滞的状态，这一时期也因此被称为“黑暗的中世纪”。</p><p>  然而，仔细分析，近代科学发展的许多必要条件正是在这个黑暗的年代中孕育出来的。首先体现在硬件条件上，正是教会庞大的体系为科学先驱们的研究提供了设备、经费等条件。比如罗吉尔培根正是在克力门教皇的准许下才得以发表自己的三部著作，我们了解培根等思想正是靠这几本著作[3]；还有近代天文学的先驱哥白尼（当然哥白尼并不是严格意义上的中世纪人）同样与宗教有着密切的关系，叔叔是教区主教，自身也担任牧师一职让他有充足的精力和财力从事复杂而耗时的天文学研究。试想，如果没有教会提供的支持，一般人可能连生存的问题都难以解决，更谈不上研究科学了。不难发现，近代许多大名鼎鼎的科学家都出身在富裕家庭中，亚里士多德不也认为闲暇是从事科学一个必不可少的条件吗？其实从这里也不难看出近代科学没有诞生在中国的一个重要原因。上层社会贪图享乐，底层民众生存艰难，有谁会去追寻那些虚无缥缈的东西呢？</p><p>  教会的体制提供的不仅是硬件上的支持，更重要的是研究体系和方法论的支持。怀特海曾说：“在现代科学理论还没有发展以前人们就相信科学可能成立的信念，是不知不觉地从中世纪神学中导引出来的”[1]。笔者认为，这可能正是宗教对大众影响的缘故。科学从宗教的体系中发展起来，尽管只是为神学所用，是“神学的婢女”，科学的地位与之前相比仍然有了很大的提升。奥古斯丁认为要想明白就应该相信，这句话阐释了信仰和理性的关系[4]。尽管在这里理性仍然服从于信仰，但是“比德尔图良完全排斥理性有了进步”[2]。同样，把理性引入神学的托马斯阿奎那也一定程度上肯定了理性所起的作用：“吾人仅能用薄弱的理智，考察某些真理，同时用那些真理，排除错误，并指明在什么方式和限度下，理智证明的真理和公教——基督真教信仰的真理，两相契合”[5]。同时在中世纪，一个由老师和学生组成的特殊的行会组织——大学应运而生，为自由的学术研究提供了场所。辩论课上听众可以随意提问，甚至包括与神学相违背的问题[6]。大学师生享有高度的学术自由，大学也因此成为新思想诞生的发源地。</p><p>  除此之外，教会内部的争论与革新也为近代科学的出现提供了良好的契机。最著名的莫过于唯名论和唯实论之间的斗争了。丹皮尔在他的《科学史》中提到：“要发掘埋藏很深的文艺复兴后才萌发的现代科学的种子，却不能不对这场论战加以研究”[3]。众多的唯名论者通过定量实验或者思想实验对自然现象作出了自己的解释，实验传统逐渐与理性科学相融合。同时，他们在思想领域也带来了前所未有的冲击。唯名论者不相信共相的存在，他们给世人带来了一个全然不同的神：多变、没有定数、不遵守规则，与唯实论所信奉的理智的上帝形有很大的反差。巨大的思想困境结合中世纪晚期发生在欧洲的重大灾难：黑死病、战争让人们开始萌生了自我征服自然的勇气，“以文艺复兴、宗教改革和科学革命为代表的现代性运动正是为了解决这一思想困难而提出的整体方案”[6]。</p><p>  综合上面的论述，我们再次体会到中世纪宗教对科学影响的复杂性。一方面它拼命的排斥科学，将其视为异端；另一方面，它又不知不觉地为近代科学的诞生提供了众多契机。我们不得不再次发问：宗教和科学错综复杂的关系究竟是怎么产生的？要想回答这个问题，我想我们必须深入思考两者的本质。</p><p><strong>三、宗教与科学关系的深入探究</strong></p><p>  前文已经提到，宗教和科学都是认识世界的方式。从具体的层面上来讲，这两种认识是截然不同的。科学所关心的是如何解释自然界已经存在的现象，如何将这些现象的解释纳入已经存在的体系之中。如果自然界的问题、宇宙的奥秘全部解决，科学似乎已经完成了它的使命。而宗教则不同，它研究的是人类的终极关怀，是人类精神上的一种安慰和超脱。换言之，正是现实的问题得不到解决，人类才会去寻求心灵上的安慰。“离开了宗教，人生便是在无穷痛苦和悲惨之中昙花一现的快乐，或者是瞬息即逝的经验中一种微不足道的琐事而已”[1]。由于认识方式的不同，两者的方法论也不同。宗教采用从一般到特殊的演绎方法，正如它教义的产生；而科学大部分情况是从特殊现象到一般规律[7]。</p><p>  宗教和科学上述的特征决定了科学的出现只能晚于宗教，即使有了萌芽后一开始也只能寄宗教篱下。原因在于当直接的解释——也就是科学行不通时，人们自然会寻求心灵上的超脱。然而，随着社会的发展，人类发现仅仅超脱层面的解释不够，这时的他们有了一定的理性思维，也开始试图关注自然，科学的雏形开始渐渐出现。但是由于能力有限，科学还是仅仅局限于宗教之中，这正是宗教与科学交叉的中世纪阶段。到了近代，科学已经难以与宗教相融，一方面是科学的发展不可能允许它停留在宗教之中；另一方面两者的关系更不可能使他们相互依赖。一种学术界流行的观点是宗教与科学本质上是对立的，笔者对此不尽赞同。笔者认为宗教和科学有让人类获得幸福的共同价值取向。但是尽管如此，两者的具体形式仍大相径庭。当然结果是科学从宗教中脱离了出来并获得了长足的发展，今天的我们无时无刻不在享受着自然科学带来的便捷。</p><p><strong>四、当代的思考</strong></p><p>  当今的宗教似乎已经苟延残喘，奄奄一息了。难道这个从人类诞生伊始就存在的信仰形式真的要消失了吗？事情似乎并没有我们大多数人想象的那么简单。的确，带有迷信性质的宗教已经迈入风烛残年。然而大部分人不知道的是，正统的基督教反而是最为反对迷信的。宗教的内涵是广泛的，上世纪最伟大的物理学家爱因斯坦不也说他信仰上帝吗，“科学没有宗教如同一个跛子，宗教没有科学好比一个盲人；上帝不玩骰子，科学只能由那些彻底浸润了对真理和理解追求的人们来创造。但是，这种感情的源泉却来自宗教的领域”[8]。这种上帝是广义的，我们可以将其视为一种精神力量。初次看见这句话着实让人惊讶，我想随着我们阅历的增加、知识的丰富，或许才能真正体会到它的内涵。</p><p>  现代社会中，以科学为基础的技术发明已经成为了经济发展的决定性力量，它在与宗教的竞争中节节胜利，宗教也因此被推下神坛。但不知道有多少人认为科学是万能的，能够解决一切未知问题？尽管科学重塑了我们对于世界的认知，尽管科学不断扩充着它的领域，总有一些是科学廊括不了的，那就是信仰。是的，科技的发展带来了前所未有的生活上的便捷，但同样也带来了前所未有的人与自然的危机——环境问题、伦理问题、社会问题等等。而这些危及貌似是科学自身解决不了的。仅仅有科学人类可能会生活的很便捷，但绝不会快乐。这些问题需要交由精神层面的信仰解决。</p><p>  真正意义的宗教正代表了一种信仰，它反映了人类追求快乐，追求圣洁的一种希冀。宗教体现了一种独一无二的关怀层面，是人类不可或缺的。宗教或许能够为当代科学无法解决的社会问题提供思想上的寄托。有理由相信，只要人类存在一天，宗教与科学便不会消亡，它们的关系还会不断发展——以我们意想不到的方式。</p><p>参考文献：</p><p>[1]   [英]怀特海.科学与近代世界[M].何钦译，北京：商务印书馆，1959</p><p>[2]   钱时惕.科学与宗教关系及其历史演变[M]. 北京：人民出版社，2002</p><p>[3]   [英]丹皮尔.科学史及其与哲学和宗教的关系[M].李珩译，桂林：广西师范大学出版社，2001 </p><p>[4]   [古罗马]奥古斯丁.忏悔录[M].[英]爱德华译，上海：世界图书出版公司，2011</p><p>[5]   [意大利]阿奎纳.阿奎纳著作集 论真原[M].吕穆迪译，合肥：安徽人民出版社，2013</p><p>[6]   吴国盛.什么是科学[M]. 广州：广东人民出版社，2016</p><p>[7]   [美]罗素.宗教与科学[M].徐奕春 林国夫译，北京：商务印书馆，1982</p><p>[8]   爱因斯坦.爱因斯坦文集[M]. 北京：商务印书馆1976</p><p>注：这篇文章是作者《科学技术史系列讲座》的期末论文</p><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">(function(d, s) {var j, e = d.getElementsByTagName(s)[0];<p>if (typeof LivereTower === ‘function’) { return; }</p><p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;j.async = true;</p><p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 论文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>高考一周年</title>
+      <link href="/2017/06/07/2017-06-07-%E9%AB%98%E8%80%83%E4%B8%80%E5%91%A8%E5%B9%B4/"/>
+      <url>/2017/06/07/2017-06-07-%E9%AB%98%E8%80%83%E4%B8%80%E5%91%A8%E5%B9%B4/</url>
+      
+        <content type="html"><![CDATA[<p>​    这个时候还是忍不住想说点什么</p><p>​    恍惚间18岁了，想起自己第一次参加高考的时候才刚刚过完16岁生日。有幸经历了最后一年安徽卷和第一年的全国卷。本抱着高二考完就可以脱离高三苦海的想法却遭遇了语文和理综最大的失败（两次早上进考场时都感觉头晕）。高考结束后在东区经历了又一次状态很差的考试，数学差点到了两位数，这次考试宣告与暑校的彻底无缘。很不情愿的上了高三，走完这一年之后才发现这段经历塑造了另一个自己。高三上学期体育课作死扭伤脚踝，每天一只脚在五层楼之间蹦上蹦下，当然还要感谢热心的同学承受我超额的体重背上背下。上学期不好不差的成绩让自己也没有什么过多的想法，直到一模的失利真正开启了我跌宕的高三。寒假过年什么地方没去在家拼命苦学，就是为了报一模的一箭之仇。开学的十校联考也还算不错，之后的又一次联考一度取得高三最好的成绩。当时的自己真可谓是志得意满，感觉清华北大小菜一碟。然而，二模又一次让我跌倒最低处。二模后的那段时间是整个高中最为黑暗的时光，从最高处到最低点只有不到一个月的时间。当时的自己突然放弃了一切的想法，只追求不浪费高考前的每分每秒。幸运的度过三模，在考前心态十分平稳，两天的考试悄无声息没有留下太多深刻的印象，唯一记得的是语文铃响坚定地改了第一道选择题。如果没有改可能又是一种结局。</p><p>​    又是一年高考了，大一也即将结束。大学这一年的生活似乎就是精简版的高中，骑车上学，图书馆自习，只是再也没有了那种为高考不顾一切的感觉。其实那场考试又能代表什么呢，谁也无法预料未来。我们只能在当下做到最好，期待全新的自己。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随想 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《乔布斯传》读后感</title>
+      <link href="/2017/05/12/2017-05-12-Steve-Jobs/"/>
+      <url>/2017/05/12/2017-05-12-Steve-Jobs/</url>
+      
+        <content type="html"><![CDATA[<p>前些日子读完了乔布斯传，颇有感受，在此写下，有时间补完。</p><p>—————————————分 割 线—————————————</p><p>​    时隔一个半月了，终于有时间完成这篇读后感（然而内容已经忘了不少。。。）</p><p>​    记得第一次见到《乔布斯传》还是小时候在广州北京路步行街的新华书店里，当时的自己对于乔布斯也不是特别了解，但是那封面上捋着胡须，带着圆形眼镜的老人还是吸引了我。但是也仅此而已，对这本书仅仅局限在随意翻翻而已，可能十几岁孩子的天性就是爱看这看那吧。然而，乔布斯的那句“活着就为改变世界”那句话我铭记了至少有6年的时间。第一次听说这句话的时候正值乔布斯去世，不知天高地厚的自己听到后立马在空间发了这句话，现在想起来还是挺有意思的。</p><p>​    初中高中对于乔布斯的印象也只在那不断更新的iphone，还有作文素材里面他的一个个小故事。上大学第一次拥有的自己的iphone和一台macbook，偶然间突然想读一读《乔布斯传》这本书。《乔布斯传》是这学期读的最认真、最着迷的一本书了。作者从乔布斯的童年写到生命的尽头，给读者再现了这位IT巨子的一生。特别是当作者写到乔布斯设计iphone和mac的各种细节时，正在使用的自己有一种说不出来的感觉。</p><p>​    乔布斯的一生可以说是极其曲折的。刚出生就被父母抛弃，创立苹果后被赶出公司，mac封闭的系统遭遇windows的反击，生命的尽头饱受病痛折磨…他克服了一个又一个困难，只是最终没有战胜病魔。</p><p>​    让人感受最深的就是乔布斯的设计理念了。他在苹果设计的所有产品都把用户体验放在第一位，早期Apple的GUI界面宣告了计算机大众化的到来，iPod将音乐从唱片中解放，iPhone的触摸屏，iPad的便携，macbook air的轻薄，一代又一代的苹果产品无不引领者世界的潮流，也赢得了许多忠实的果粉。的确，使用苹果的产品时，你体会到的是流畅、安全和便捷。乔布斯始终坚持做最好的产品，他的心中有一种特殊的信仰，这可能和他早年去印度禅思有关。</p><p>​    他善于说服别人，以至于他周围的人说他身上有一种引力场，让你相信不可能的事情。这一点从他少年时代就可以看出，当组装一个小机器（记不清是什么了），他却了一个零部件，这个部件只有某家大公司才有。他马上打电话给那家公司让他们免邮寄了一个给他。可以说，是这种品质成就了乔布斯。最初创办公司时，是沃兹尼亚克作为技术核心；开发麦金塔时，周围有电脑天才拉斯金和伯勒尔；劝说拉斯金当CEO时，他说“你是想卖一辈子糖水，还是想和我一起改变世界？”离开苹果创办NEXT时他成功带走了一批技术专家，在皮克斯电影公司里，同样是他看中的佩琦和克劳让电影大获成功。乔布斯的单方面的才干可能和上面的人没有一个可以相比，但他善于将他们说服为自己打工，可能他有一种特殊的人格魅力，只是我们已经无从知晓。同时，他总是能够劝说团队中的人在短时间内完成根本不可能的事情。</p><p>​    乔布斯的性格极其古怪，或者说有些极端。他看待事物只有两个方面：完美和垃圾。这种方式不知道伤害了他身边多少的设计师们，但是能顶住乔布斯重压设计出来的产品一定是独一无二的，甚至可以说完美无缺。更让人惊讶的是，他可以今天说你的东西是垃圾，过了几天之后又说他完美无缺，抑或说这个产品可以这样设计，但其实就是之前展示的样子。这种极端和多变构成了他性格的主要部分。</p><p>​    乔布斯对待家庭绝对是远远称不上合格的。和第一任女友布伦南生下女儿Lisa后，他甚至一度否认这不是他的孩子，不愿意承担起父亲的责任；到了后来与妻子鲍威尔结婚后，也是整天专心于苹果公司，很少顾及自己的家庭，甚至连自己的身体都不管不顾。</p><p>​    他最终为自己的这种执念付出了代价。长期的素食生活让他的身体每况愈下，查出肿瘤后不及时切割最终酿成了难以估量的后果。如果早半年做手术，乔布斯可能至今还在改变世界。只是生活没有如果，上帝收走了他的苹果。</p><p>​    乔布斯的一生是传奇的一生。在这寥寥数语也很难概括他的生平。不知道当今没有他的苹果还能走多远，现在的苹果越发给人一种缺乏创新的老大哥一样，就像《1984》的宣传片中描述的一样。当然，现在几乎人人都有的iphone和mac是对他一生最大的肯定。</p><!-- 来必力City版安装代码 --><div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA=="><script type="text/javascript">   (function(d, s) {       var j, e = d.getElementsByTagName(s)[0];<pre><code>if (typeof LivereTower === &apos;function&apos;) { return; }j = d.createElement(s);j.src = &apos;https://cdn-city.livere.com/js/embed.dist.js&apos;;j.async = true;e.parentNode.insertBefore(j, e);</code></pre><p>   })(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p></div><!-- City版安装代码已完成 -->]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+        </tags>
       
     </entry>
     
