@@ -188,6 +188,111 @@
       
         
   <h2 class="title">
+    <a href="/2018/02/28/2018-02-28-Dijakstra/">
+      有向图的Dijakstra算法
+    </a>
+  </h2>
+
+
+      
+      <div class="new-meta-box">
+        
+          
+        
+          
+            
+  <div class="new-meta-item author">
+    <a href="https://chwangthu.github.io" rel="nofollow">
+      
+        <i class="fas fa-user" aria-hidden="true"></i>
+      
+      <p>Clarence Wang</p>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    <p>2018-02-28</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+          
+            
+
+          
+        
+      </div>
+      
+        <hr>
+      
+    </div>
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>算法原理就不多说了，就讲一讲实现<br>代码采用邻接矩阵的数据结构，a(i,j)代表第i个节点到第j个节点的距离，不能到达为无穷，代码中设为10000000。<br>另外数组len代表节点0到每个节点到最短路程，每循环一次就更新一次，vis数组表示访问情况，1表示访问过，0表示未访问。<br>算法分为2步：<br>（1）置len数组的值，直接将矩阵的第一行给len赋值即可 vis[0] = 1;<br>（2）n-2次循环，每次加入一个节点（为什么不是n-1次呢？最后一次就一个点了，没什么好更新的）<br>  每次循环做的事：<br>​    1）找到下一个节点（next_node函数）<br>​    2）将找到节点的后继的len值进行更新</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;algorithm&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int MAX = 10000000;</span><br><span class="line">const int N = 100; //最多设置100个节点</span><br><span class="line">int matrix[N][N];</span><br><span class="line">int len[N]; //最短路径长度,不断更新</span><br><span class="line">bool vis[N]; //判断是否访问过该节点,访问过设1</span><br><span class="line">int n;</span><br><span class="line">int next_node()</span><br><span class="line">&#123;</span><br><span class="line">    int l = MAX;</span><br><span class="line">    int tep = 0;</span><br><span class="line">    for (int i = 0; i &lt; n; i++)</span><br><span class="line">        if (!vis[i] &amp;&amp; len[i] &lt; l)</span><br><span class="line">        &#123;</span><br><span class="line">            tep = i;</span><br><span class="line">            l = len[i];</span><br><span class="line">        &#125;</span><br><span class="line">    vis[tep] = 1;</span><br><span class="line">    return tep;</span><br><span class="line">&#125;</span><br><span class="line">void Dijastra()</span><br><span class="line">&#123;</span><br><span class="line">    for (int i = 0; i &lt; n; i++) //设置len[i]的值</span><br><span class="line">    &#123;</span><br><span class="line">        len[i] = matrix[0][i];</span><br><span class="line">        cout &lt;&lt; len[i] &lt;&lt; &quot; &quot;;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    len[0] = 0;</span><br><span class="line">    vis[0] = 1;                 //第0个节点被访问</span><br><span class="line">    for (int i = 1; i &lt; n - 1; i++) //循环n-2次，每次加入一个节点</span><br><span class="line">    &#123;</span><br><span class="line">        int k = next_node();</span><br><span class="line">        cout &lt;&lt; &quot;node &quot; &lt;&lt; k &lt;&lt; &quot; is added&quot; &lt;&lt; endl;</span><br><span class="line">        for (int j = 0; j &lt; n; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            if (!vis[j] &amp;&amp; matrix[k][j] != MAX) //没有访问过且是k的后继</span><br><span class="line">                len[j] = min(len[j], len[k] + matrix[k][j]);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">void print()</span><br><span class="line">&#123;</span><br><span class="line">    for (int i = 0; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;The length of the shorted path to node &quot; &lt;&lt; i + 1 &lt;&lt; &quot; is: &quot;;</span><br><span class="line">        if (len[i] == MAX)</span><br><span class="line">            cout &lt;&lt; &quot;∞&quot; &lt;&lt; &quot; &quot;;</span><br><span class="line">        else cout &lt;&lt; len[i] &lt;&lt; &quot; &quot;;</span><br><span class="line">        cout &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;Please input the number of nodes: &quot;;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    cout &lt;&lt; &quot;Please input the relation matrix, use MAX when can&apos;t be reached&quot; &lt;&lt; endl;</span><br><span class="line">    for (int i = 0; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;node: &quot; &lt;&lt; i + 1 &lt;&lt; &quot; &quot;;</span><br><span class="line">        for (int j = 0; j &lt; n; j++)</span><br><span class="line">            cin &gt;&gt; matrix[i][j];</span><br><span class="line">    &#125;</span><br><span class="line">    Dijastra();</span><br><span class="line">    print();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>时间复杂度：O(n^2)<br>空间复杂度：O(n)<br>测试：<br><img src="http://img.blog.csdn.net/20170401173515787?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQ293YW4xOTk5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"></p>
+<!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zNDQ5Mi8xMTAzMA==">
+<script type="text/javascript">
+(function(d, s) {
+var j, e = d.getElementsByTagName(s)[0];
+
+<p>if (typeof LivereTower === ‘function’) { return; }</p>
+<p>j = d.createElement(s);<br>j.src = ‘<a href="https://cdn-city.livere.com/js/embed.dist.js&#39;">https://cdn-city.livere.com/js/embed.dist.js&#39;</a>;
+j.async = true;</p>
+<p>e.parentNode.insertBefore(j, e);<br>})(document, ‘script’);<br></script><br><noscript>为正常使用来必力评论功能请激活JavaScript</noscript><p></p>
+</div>
+<!-- City版安装代码已完成 -->
+
+      
+    </div>
+    
+      <div class="full-width auto-padding tags">
+        
+          <a href="/tags/Algorithm/" rel="nofollow"><i class="fas fa-hashtag fa-fw"></i>Algorithm</a>
+        
+      </div>
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post reveal ">
+  
+
+
+  <section class="meta">
+    
+    
+    <div class="meta" id="header-meta">
+      
+        
+  <h2 class="title">
     <a href="/2017/07/08/2017-07-08-什么是科学/">
       读吴国盛《什么是科学》
     </a>
@@ -770,9 +875,7 @@ e.parentNode.insertBefore(j, e);</code></pre><p>   })(document, ‘script’);<b
     <div class="content pure">
       <ul class="entry">
         
-          <li><a class="flat-box" title="/categories/etst/" href="/categories/etst/"><div class="name">etst</div><div class="badge">(0)</div></a></li>
-        
-          <li><a class="flat-box" title="/categories/随想/" href="/categories/随想/"><div class="name">随想</div><div class="badge">(1)</div></a></li>
+          <li><a class="flat-box" title="/categories/生活/" href="/categories/生活/"><div class="name">生活</div><div class="badge">(1)</div></a></li>
         
       </ul>
     </div>
