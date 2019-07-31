@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Getty Center</title>
+      <link href="/2019/07/30/2019-07-30-Getty-Center/"/>
+      <url>/2019/07/30/2019-07-30-Getty-Center/</url>
+      
+        <content type="html"><![CDATA[<p>​    来美国正好一个月了，之前总想写点这边的生活，不过总是因为各种原因鸽了。</p><p>​    今天学校组织我们去Getty Center，学校东北边的一个<b>私人</b>博物馆。早上9点钟从学校坐shuttle出发，差不多一个小时到达目的地。首先自然是进门安检，不过美帝的安检连个金属探测器都没就不说了。由于Center实际上是在山上，所以进门后还需要搭乘Tram(一种轨道电车，无人驾驶的)。在Tram上可以看到公路上来来往往的车辆还有对面建造在山上的住房。这种景观在国内基本上很难见到。</p><img src="https://www.reed.edu/getty/tramway/Tram-05.jpg" style="width:70%"><p>​    乘坐tram很快就能到达展厅。展厅分为四个部分，东西南北Pavilion，大部分都是中世纪的绘画，还有一些雕塑，基本上都和宗教有关，来自欧洲各个国家。由于对这些知识实在是缺乏了解，我只能走马观花看个表面。令我印象深刻的只有几幅比较逼真的风景画。实际上，Getty Center还免费提供了自助讲解的仪器(iphone4s改造的)，很多展品都有一个编号，手机输入编号就能听到相关的介绍。不过由于听力水平有限，只能听懂一小部分。</p><p>​    印象最深的还是Garden吧，可以说是Getty家族的后花园了。这里能够看到洛杉矶的全景，不过今天似乎有雾霾。在池子前留下了今天唯一一张游客照。</p><img src="https://img.vim-cn.com/4a/be1d95bade21f5160cc8dad3417f6f81691164.jpg" style="width:70%"><p>​    似乎可写的东西并不是很多。主要还是自己艺术知识太过于匮乏，难以把握好这个欣赏艺术品的好机会。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>写于19年G4之后</title>
       <link href="/2019/06/08/2019-06-08-%E5%86%99%E4%BA%8E19%E5%B9%B4G4%E4%B9%8B%E5%90%8E/"/>
       <url>/2019/06/08/2019-06-08-%E5%86%99%E4%BA%8E19%E5%B9%B4G4%E4%B9%8B%E5%90%8E/</url>
@@ -80,11 +93,11 @@
     
     
     <entry>
-      <title>RSA公钥加密系统</title>
-      <link href="/2018/05/27/2018-05-26-RSA%E5%8A%A0%E5%AF%86%E7%B3%BB%E7%BB%9F/"/>
-      <url>/2018/05/27/2018-05-26-RSA%E5%8A%A0%E5%AF%86%E7%B3%BB%E7%BB%9F/</url>
+      <title>Wireshark之TCP</title>
+      <link href="/2018/05/27/2018-07-22-Wireshark%E4%B9%8BTCP/"/>
+      <url>/2018/05/27/2018-07-22-Wireshark%E4%B9%8BTCP/</url>
       
-        <content type="html"><![CDATA[<h2 id="一、生成"><a href="#一、生成" class="headerlink" title="一、生成"></a>一、生成</h2><ol><li>两个足够大的素数p, q, N = pq</li><li>计算$r=\phi(N)=(p-1)(q-1)$</li><li>找到比r小且与r互素的e，求e模r的逆d<br>(N, e)是公钥 (N, d)是私钥</li></ol><h2 id="二、加密"><a href="#二、加密" class="headerlink" title="二、加密"></a>二、加密</h2><h2 id="三、解密"><a href="#三、解密" class="headerlink" title="三、解密"></a>三、解密</h2><h2 id="四、可行性"><a href="#四、可行性" class="headerlink" title="四、可行性"></a>四、可行性</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><p>使用tcp filter，我们很容易就能捕获tcp包</p><ul><li>第一步：源地址向目的地址发送请求(SYN, seq = 0)</li><li>第二步：目的地址确认(SYN, ACK seq=0, ack=1)</li><li>第三步：源地址确认(ACK seq=1, ack=1)</li></ul><p><img src="../assets/images/wireshark-tcp1.png" alt="三次握手"></p><p>详细的信息如下图：</p><p><img src="../assets/images/wireshark-tcp2.png" alt></p>]]></content>
       
       
       
@@ -99,11 +112,11 @@
     
     
     <entry>
-      <title>Wireshark之TCP</title>
-      <link href="/2018/05/27/2018-07-22-Wireshark%E4%B9%8BTCP/"/>
-      <url>/2018/05/27/2018-07-22-Wireshark%E4%B9%8BTCP/</url>
+      <title>RSA公钥加密系统</title>
+      <link href="/2018/05/27/2018-05-26-RSA%E5%8A%A0%E5%AF%86%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2018/05/27/2018-05-26-RSA%E5%8A%A0%E5%AF%86%E7%B3%BB%E7%BB%9F/</url>
       
-        <content type="html"><![CDATA[<h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><p>使用tcp filter，我们很容易就能捕获tcp包</p><ul><li>第一步：源地址向目的地址发送请求(SYN, seq = 0)</li><li>第二步：目的地址确认(SYN, ACK seq=0, ack=1)</li><li>第三步：源地址确认(ACK seq=1, ack=1)</li></ul><p><img src="../assets/images/wireshark-tcp1.png" alt="三次握手"></p><p>详细的信息如下图：</p><p><img src="../assets/images/wireshark-tcp2.png" alt></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="一、生成"><a href="#一、生成" class="headerlink" title="一、生成"></a>一、生成</h2><ol><li>两个足够大的素数p, q, N = pq</li><li>计算$r=\phi(N)=(p-1)(q-1)$</li><li>找到比r小且与r互素的e，求e模r的逆d<br>(N, e)是公钥 (N, d)是私钥</li></ol><h2 id="二、加密"><a href="#二、加密" class="headerlink" title="二、加密"></a>二、加密</h2><h2 id="三、解密"><a href="#三、解密" class="headerlink" title="三、解密"></a>三、解密</h2><h2 id="四、可行性"><a href="#四、可行性" class="headerlink" title="四、可行性"></a>四、可行性</h2>]]></content>
       
       
       
